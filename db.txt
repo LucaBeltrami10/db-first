@@ -1,20 +1,23 @@
 Auto usate 
 
-id
-disponibilità
-stato_vaicolo
+id intero - MEDIUMINT(20000) - PRIMARY_KEY UNIQUE AUTO_INCREMENT - NOT NULL
+disponibilità_in_parco_auto booleano - BOOLEAN - NOT NULL - DEFAULT(TRUE)
+indirizzo_veicolo stringa VARCHAR(255) - NULL
+status_vendita booleano - BOOLEAN - NOT NULL - DEFAULT(TRUE)
 
-marca
-modello
-versione
-anno_costruzione
+marca stringa - VARCHAR(25) - NOT NULL
+modello stringa - VARCHAR(35) - NOT NULL
+versione stringa - VARCHAR(25) - NULL
+anno_costruzione data - YEAR - NULL
+ultima_revisione stringa -VARCHAR(7) - NULL
+condizione_veicolo stringa - VARCHAR(5) - NOT NULL
+note_sulla_condizione stringa - TEXT(500) - NULL
 
-chilometraggio
-potenza
-cilindrata
-carburante
-tipologia_cambio
-numero_marce
-peso_a_vuoto
-classe_emissioni
-colore
+chilometraggio intero MEDIUMINT - NOT NULL
+potenza intero  MEDIUMINT - NULL
+cilindrata intero SMALLINT - NULL
+carburante stringa VARCHAR(25) - NOT NULL
+tipologia_cambio stringa VARCHAR(25) - NOT NULL
+numero_marce stringa VARCHAR(10) - NULL
+peso_a_vuoto intero SMALLINT - NULL
+classe_emissioni intero TINYINT(10) - NOT NULL
