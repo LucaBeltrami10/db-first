@@ -1,0 +1,20 @@
+Auto usate 
+
+id
+disponibilità
+stato_vaicolo
+
+marca
+modello
+versione
+anno_costruzione
+
+chilometraggio
+potenza
+cilindrata
+carburante
+tipologia_cambio
+numero_marce
+peso_a_vuoto
+classe_emissioni
+colore
